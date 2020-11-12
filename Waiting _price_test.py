@@ -23,3 +23,5 @@ line = browser.find_element_by_tag_name('input').send_keys(y)
 
 browser.find_element_by_id('solve').click()
 
+browser.quit()
+
